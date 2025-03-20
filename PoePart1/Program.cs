@@ -25,7 +25,11 @@ namespace PoePart1
             string responseFilePath = "C:\\Users\\ntsal\\source\\repos\\PoePart1\\resources\\responses.txt";//Path to the responses file
             string audioFilePath = "C:\\Users\\ntsal\\source\\repos\\PoePart1\\resources\\greeting.wav";//Path to the audio recording
 
-            
+            //Instantiate the chatbot 
+            CyberChat chat = new CyberChat(responseFilePath, audioFilePath);
+
+            //Run the chat
+            chat.Run();
         }
     }
 }
