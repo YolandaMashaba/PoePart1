@@ -15,22 +15,17 @@ namespace PoePart1
             new ResponseSystem() { };
             new AsciiArt() { };
 
-            /*Fix the errors above
+            /*
              * Create README file
              * Complete the main class
-             * regenerate the ascii art on the generator and add it to your resources on logo.txt
-             * change the recording to a wav file and save it as greeting.wav
+             * Start with the ResponseSystem and CyberChat class
              */
 
             //Define file paths
-            string responseFilePath = "C:\\Users\\ntsal\\source\\repos\\poe_part1\\resources\\responses.txt";//Path to the responses file
-            string audioFilePath = "C:\\Users\\ntsal\\source\\repos\\poe_part1\\resources\\greeting.wav";//Path to the audio recording
+            string responseFilePath = "C:\\Users\\ntsal\\source\\repos\\PoePart1\\resources\\responses.txt";//Path to the responses file
+            string audioFilePath = "C:\\Users\\ntsal\\source\\repos\\PoePart1\\resources\\greeting.wav";//Path to the audio recording
 
-            //Instantiate the chatbot 
-            CyberChat chat = new CyberChat(responseFilePath, audioFilePath);
-
-            //Run the chat
-            chat.Run();
+            
         }
     }
 }
