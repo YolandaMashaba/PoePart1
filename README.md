@@ -40,15 +40,13 @@ PoePart1.sln
 Welcome to the Cyber Chat a Cybersecurity Awareness Bot!
 You can ask me about cybersecurity topics like password safety, phishing, and safe browsing.
 
-What's your name? [your name]
-Hello, [your name]! How can I assist you today?
-
-[your name]: How are you?
-Bot: I'm just a bot, but I'm here to help you, [your name]! How can I assist you today?
-
-[your name]: Tell me about password safety.
-Bot: Creating a strong password is crucial, [your name]. Use a mix of letters, numbers, and special characters. Avoid using common words or personal information.
-
-[your name]: exit
+I am Cyber Chat. What should I call you? 
+user name
+Hello, user name! How can I assist you today?
+user name: How are you?
+Cyber Chat: I'm just a bot, but I'm here to help you, user name! How can I assist you today?
+user name: Tell me about password safety.
+Cyber Chat: Creating a strong password is crucial, user name. Use a mix of letters, numbers, and special characters. Avoid using common words or personal information.
+user name: exit
 Goodbye! Stay safe online.
     
