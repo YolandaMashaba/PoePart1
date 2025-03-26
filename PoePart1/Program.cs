@@ -10,6 +10,8 @@ namespace PoePart1
     {
         static void Main(string[] args)
         {
+            new VoiceGreeting() { };
+            new AsciiArt() { };
         }
     }
 }
