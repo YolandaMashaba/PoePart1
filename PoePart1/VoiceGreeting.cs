@@ -9,6 +9,7 @@ namespace PoePart1
 
         public VoiceGreeting()
         {
+
         }
 
         public VoiceGreeting(string filePath)
